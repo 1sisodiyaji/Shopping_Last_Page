@@ -1,0 +1,87 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(84,196,46);
+    background: linear-gradient(90deg, rgba(84,196,46,1) 46%, rgba(0,212,255,1) 100%);
+}
+.card{
+    width: 400px;
+    height: 600px;
+    border:1px solid black;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px green;
+    padding: 5px;
+
+}
+.card img{
+    height:220px;
+    margin-top: 15px;
+    
+}
+.card h3{
+    margin-left: 120px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.plan{
+    width: 350px;
+    height:50px;
+    border:1px solid black;
+    background-color: rgb(64, 144, 96);
+    border-radius: 20px;
+    margin-left:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.plan img{
+height:25px;
+border-radius: 50%;
+
+}
+.plan p{
+    font-size: 1.3rem;
+    margin-top: 15px;
+    margin-left: 23px;
+
+}
+.plan a{
+    margin-left:95px;
+    margin-top:9px
+}
+.payment{
+    width: 350px;
+    height:50px;
+    border:1px solid black;
+    background-color: rgb(35, 35, 148);
+    border-radius: 20px;
+    margin-left:20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.payment p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    margin-top:4px;
+    margin-left:49px
+    
+}
+a{
+    text-align: center;
+    text-decoration: none;
+
+}
